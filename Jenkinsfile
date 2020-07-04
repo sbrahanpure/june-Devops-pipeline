@@ -10,7 +10,7 @@ pipeline
       
       Stage ('Code Compile')
       { Steps
-      {sh 'echo code is compiling'}
+          { sh 'echo code is compiling' }
       }
     }
   }
