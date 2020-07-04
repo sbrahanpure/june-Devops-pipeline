@@ -14,7 +14,9 @@ pipeline
       }
     
      stage ('Get Approval Status')
+     { steps
      { input "Please approve for the deployement process" }
+     }
      
      stage ('Deploe Code')
       { steps
