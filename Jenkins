@@ -15,7 +15,7 @@ stages
   
   stage {'code build'}       
         { steps
-            {sh 'echo build'}
+            {sh 'echo Deploy'}
           }
   }
 }
