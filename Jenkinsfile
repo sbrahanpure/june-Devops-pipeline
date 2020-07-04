@@ -8,7 +8,7 @@ pipeline
        { sh 'echo downloading the code' }
      }
       
-      Stahe ('Code Compile')
+      Stage ('Code Compile')
       { Steps
       {sh 'echo code is compiling'}
       }
